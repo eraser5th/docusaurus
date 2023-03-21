@@ -7,7 +7,7 @@ export default function Home(): JSX.Element {
 
 const NavToDocs: React.FC = () => {
   useEffect(() => {
-    window.location.href = "./docs";
+    window.location.href = "./docs/intro";
   }, [window]);
   return null;
 };
